@@ -12,7 +12,7 @@ import pandas as pd
 # Variables
 # =============================================================================
 
-# Google Cloud service key as base64 string
+# Sendgrid Key as env variable
 SENDGRID_API_KEY = os.environ.get('SENDGRID_API_KEY')
 sg = SendGridAPIClient(SENDGRID_API_KEY)
 
